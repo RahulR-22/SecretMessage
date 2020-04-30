@@ -1,0 +1,12 @@
+.row {
+	margin-top: 15vh;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+h3 {
+	margin-top: 0;
+}

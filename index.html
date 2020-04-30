@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Message App</title>
+    <link rel="shortcut icon" href="https://p7.hiclipart.com/preview/663/97/225/email-computer-icons-message-bounce-address-email-icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1>Secret Message App</h1>
+    <div class="row">
+        <div class="col s8 offset-s2">
+            <div id="msg-show" class="card-panel hide">
+                <h3></h3>
+                <div>
+                    <a href="./index.html">Create your own secet message</a>
+                </div>
+            </div>
+            <div class="card-panel" id="msg-form">
+                <form>
+                    <label for="input">Ente a Secret Message</label>
+                    <input id="messageInput">
+                    <button class="btn">Create</button>  
+                </form>
+            </div>
+            <div class="card-panel hide" id="link-form">
+                <div> 
+                    Share this link with a friend
+                    <input id="encryptedInput"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
